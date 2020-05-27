@@ -5,7 +5,7 @@ def turn_count(board)
   board.each do |board_element|
     if board_element == "X" || board_element == "O"
       count += 1
-      puts count
+      
     end
   end
   
