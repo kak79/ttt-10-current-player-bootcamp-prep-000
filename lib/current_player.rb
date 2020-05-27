@@ -15,7 +15,7 @@ end
 def current_player(board)
   
   turn_count(board)
-  board_element.to_i + 1
+  
   
       if  % 2 == 1 
         "X"  
